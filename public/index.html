@@ -32,6 +32,7 @@
           <td><button class="btn btn-info" ng-click="update()">Update</button>&nbsp;&nbsp;<button class="btn btn-info" ng-click="deselect()">Clear</button></td>
         </tr>
         <tr ng-repeat="contact in education">
+          <td>{{contact.type}}</td>
           <td>{{contact.school}}</td>
           <td>{{contact.degree}}</td>
           <td>{{contact.last_year}}</td>
