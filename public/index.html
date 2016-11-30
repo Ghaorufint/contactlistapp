@@ -31,10 +31,10 @@
           <td><button class="btn btn-primary" ng-click="addContact()">Add Contact</button></td>
           <td><button class="btn btn-info" ng-click="update()">Update</button>&nbsp;&nbsp;<button class="btn btn-info" ng-click="deselect()">Clear</button></td>
         </tr>
-        <tr ng-repeat="contact in contactlist">
-          <td>{{contact.name}}</td>
-          <td>{{contact.email}}</td>
-          <td>{{contact.number}}</td>
+        <tr ng-repeat="contact in education">
+          <td>{{contact.school}}</td>
+          <td>{{contact.degree}}</td>
+          <td>{{contact.last_year}}</td>
           <td><button class="btn btn-danger" ng-click="remove(contact._id)">Remove</button></td>
           <td><button class="btn btn-warning" ng-click="edit(contact._id)">Edit</button></td>
         </tr>
