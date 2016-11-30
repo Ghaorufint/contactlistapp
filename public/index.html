@@ -19,10 +19,14 @@
         </tr>
       </thead>
       <tbody>
+        <td>~~~Education~~~</td>
         <tr ng-repeat="contact in education">
-          <td>~~~Education~~~</td>
           <td>School:{{contact.school}}</td>
+        </tr>
+        <tr ng-repeat="contact in education">
           <td>Degree:{{contact.degree}}</td>
+        </tr>
+        <tr ng-repeat="contact in education">
           <td>Expected Graduation Date:{{contact.last_year}}</td>
         </tr>
       </tbody>
