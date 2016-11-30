@@ -12,13 +12,15 @@
 <body>
   <div class="container" ng-controller="AppCtrl">
     <h1>Resumayyyyy</h1>
-
+    <td></td>
     <table class="table">
       <thead>
         <tr>
         </tr>
       </thead>
       <tbody>
+      </tbody>
+    </table>
         <td>~~~Education~~~</td>
         <tr ng-repeat="contact in education">
           <td>School:{{contact.school}}</td>
@@ -29,9 +31,6 @@
         <tr ng-repeat="contact in education">
           <td>Expected Graduation Date:{{contact.last_year}}</td>
         </tr>
-      </tbody>
-    </table>
-
   </div>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.12/angular.min.js"></script>
 <script src="controllers/controller.js"></script>
